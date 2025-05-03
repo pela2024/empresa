@@ -33,12 +33,35 @@ h3 {
     color: rgb(14, 14, 14);
     margin: 50px;
 }
+.bienvenida {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .palabra1,
+  .palabra2 {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: default;
+  }
+  
+  .palabra1:hover {
+    transform: scale(1.2);
+    color: #1abc9c; /* cambia a verde agua */
+  }
+  
+  .palabra2:hover {
+    transform: scale(1.2);
+    color: #1a3772; /* cambia a naranja */
+  }
+  
 body {
    background-color: #DBD3C6; 
 }
 
 header {
-    background-image: url(/imagenes/frente.png);
+    background-image: url(./imagenes/frente.png);
     background-size: cover;
     background-position: center;
     height: 300px;  
@@ -111,6 +134,25 @@ a   {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
+  .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* columnas automáticas */
+    gap: 20px; /* espacio entre productos */
+    padding: 20px;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+    .producto h3 {
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+    }  
+
 
 body nav a:hover {
     color: rgb(247, 246, 246);

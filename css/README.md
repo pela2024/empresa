@@ -10,3 +10,4 @@ Tutora: Leticia Aloia
 Favicon en cada una de las paginas
 el nav tiene efecto stiky
 se uso en la pagina accesorios/ hombres  Display grid
+en el index el nombre de la marca tiene un efecto hover al pasar el cursor 
