@@ -61,7 +61,7 @@ body {
 }
 
 header {
-    background-image: url(./imagenes/frente.png);
+    background-image: url(../imagenes/frente.png);
     background-size: cover;
     background-position: center;
     height: 300px;  
