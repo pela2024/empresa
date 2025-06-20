@@ -12,10 +12,9 @@
 }
 .footer .footer-col p, .footer .footer-col a {
   margin: 5px 0;
-  color: aqua;
 }
 .footer .footer-col a {
-  color: blue;
+  color: aqua;
   text-decoration: none;
 }
 .footer .footer-col a:hover {
@@ -149,7 +148,7 @@ a {
 }
 
 .grid-galeria img {
-  width: 300%;
+  width: 100%;
   height: auto;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
