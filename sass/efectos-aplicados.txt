@@ -1,0 +1,13 @@
+1)La pagina contiene 5 html
+2)Contiene un nav con efecto hover al pasar el raton
+3)palabra1, .palabra2 contiene efecto, display: inline-block al pasar el raton
+4)El index contiene la libreria AOS con efecto FADE
+5)Se agrego carpeta Sass  
+6)Trabajamos en el foorter con mixins y variables
+7)Se implementa SEO en cada html
+8)Usamos link en el footer con efectos y link relativos para instagram y tiktok
+9)Incluimos Favicon en cada html
+
+
+NOTA: al proyecto le falta trabajo pero por ser la primer pagina web que diseño , estoy conforme 
+Gracias Leti por todos los aportes y lo mismo para el profe 
