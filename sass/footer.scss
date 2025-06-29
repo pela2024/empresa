@@ -8,7 +8,12 @@ $color-acento: blue;
   gap: 20px;
 }
 
-
+  .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+    }
 .footer {
   @include grid-columns(4);
   background-color: $color-principal;
